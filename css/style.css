@@ -221,7 +221,6 @@ li {
 }
 
 .skill-img {
-  width: 60px;
   height: auto;
   margin-right: 20px;
 }
@@ -345,7 +344,13 @@ li {
 .home-link {
   text-align: center;
 }
-
+/*media Queries IPAD 1000
+----------------------------------------------------*/
+@media screen and (max-width: 1000px) and (min-width: 767px){
+  .skill-item {
+    flex-direction: column;
+  }
+}
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
@@ -455,6 +460,7 @@ li {
   }
 
   .skill-item {
+    flex-direction: column;
     width: 100%;
     margin-bottom: 35px;
   }

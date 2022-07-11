@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
   <meta property='og:type' content='website'>
   <meta property='og:title' content='Hand made accessoris moi moi WebSite'>
-  <meta property='og:url' content='https://pn496.github.io/acc/'>
+  <meta property='og:url' content='http/*media Queries 767
+  ----------------------------------------------------*/
+  @media screen and (max-width: 767px) {s://pn496.github.io/acc/'>
   <meta property='og:description' content='Hand made accessoris moi moi WebSite'>
   <meta property="og:image" content="img/pro.jpg">
   <meta name="description" content="Hand made accessoris moi moi WebSite" />
@@ -35,7 +37,8 @@
     <link rel="manifest" href="img/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#fff">
-      
+  <!-- jquery lightbox -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <title>Hand made accessoris moi moi WebSite</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
@@ -44,6 +47,7 @@
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/lightbox.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”https://pn496.github.io/acc/” />
 </head>
@@ -108,7 +112,7 @@
           <h2 class="title">how to make</h2>
           <div class="skill-list">
             <div class="skill-item">
-              <p class="skill-img"><img src="img/sk1.jpg" alt=""></p>
+              <p class="skill-img"><a href="img/sk11.jpg" data-lightbox="detail" data-title="Unique item"><img src="img/sk1.jpg" alt="sk1"></a></p>
               <div class="skill-body">
                 <h3 class="skill-name">Unique item</h3>
                 <p class="skill-text">
@@ -117,7 +121,7 @@
               </div>
             </div>
             <div class="skill-item">
-              <p class="skill-img"><img src="img/sk2.jpg" alt=""></p>
+              <p class="skill-img"><a href="img/sk22.jpg" data-lightbox="detail" data-title="Children also covered"><img src="img/sk2.jpg" alt="sk2"></a></p>
               <div class="skill-body">
                 <h3 class="skill-name">Children also covered</h3>
                 <p class="skill-text">
@@ -126,7 +130,7 @@
               </div>
             </div>            
             <div class="skill-item">
-              <p class="skill-img"><img src="img/sk3.jpg" alt=""></p>
+              <p class="skill-img"><a href="img/sk33.jpg" data-lightbox="detail" data-title="Anti-allergy"><img src="img/sk3.jpg" alt="sk3"></a></p>
               <div class="skill-body">
                 <h3 class="skill-name">Anti-allergy</h3>
                 <p class="skill-text">
@@ -135,9 +139,9 @@
               </div>
             </div>
             <div class="skill-item">
-              <p class="skill-img"><img src="img/sk4.jpg" alt=""></p>
+              <p class="skill-img"><a href="img/sk44.jpg" data-lightbox="detail" data-title="focus on earrings"><img src="img/sk4.jpg" alt="sk4"></a></p>
               <div class="skill-body">
-                <h3 class="skill-name">focus on earrings</h3>
+                <h3 class="skill-name">Focus on earrings</h3>
                 <p class="skill-text">
                   イヤリング派の為、好みのアクセサリーがあってもピアスのみという方に対し、全力でフォローします。</p>
               </div>
@@ -205,5 +209,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+    <!-- jquery lightbox--><script src="js/lightbox.js"></script>
 </body>
 </html>
