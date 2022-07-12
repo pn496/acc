@@ -35,7 +35,8 @@
       <link rel="manifest" href="img/site.webmanifest">
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#fff">
-        
+    <!-- jquery lightbox -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Hand made accessoris moi moi WebSite</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -44,6 +45,7 @@
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/lightbox.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel=”canonical” href=”https://pn496.github.io/acc/” />
   </head>
@@ -81,12 +83,13 @@
       <article class="article">
         <div class="article-inner">
           <h2 class="article-title">kiz accessories</h2>
-          <p class="article-img">
-            <img src="img/bk2.jpg" alt="bk2">
-          </p>
+          <p class="article-img"><a href="img/kiz1.jpg" data-lightbox="detail" data-title="いちごのヘアゴム ¥770"><img src="img/bk2.jpg" alt="bk2"></a></p>
+          <a href="img/kiz2.jpg" data-lightbox="detail" data-title="いちごのヘアゴム ¥770"></a>
+          <a href="img/kiz3.jpg" data-lightbox="detail" data-title="しゃぼん玉ヘアゴム ¥880"></a>
+          <a href="img/kiz4.jpg" data-lightbox="detail" data-title="くまさんヘアゴム ¥880"></a>
           <div class="article-body">
             <p>
-              ヘアゴム
+              ヘアゴム ※クリックで一覧がご覧頂けます
             </p>
             <h3 class="article-info-title">商品一覧URL</h3>
             <p><a href="https://lit.link/moimoihandmade" target="_blank" rel="noopener">https://lit.link/moimoihandmade</a></p>
@@ -117,5 +120,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+    <!-- jquery lightbox--><script src="js/lightbox.js"></script>
 </body>
 </html>
